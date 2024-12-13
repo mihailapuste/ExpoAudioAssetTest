@@ -13,8 +13,10 @@
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		39DF5B8CC1B0D30330600D68 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
+		5F938DE09054AE0C30D65B7C /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16098282FBAB2980BA4DA47C /* ExpoModulesProvider.swift */; };
 		7699B88040F8A987B510C191 /* libPods-ExpoAudioAssetTest-ExpoAudioAssetTestTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-ExpoAudioAssetTest-ExpoAudioAssetTestTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		F8123EC8A1DD9387D9E8F2CE /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BCA6BF095A1CF1DF1E3F2DA /* ExpoModulesProvider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,11 +40,13 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ExpoAudioAssetTest/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ExpoAudioAssetTest/main.m; sourceTree = "<group>"; };
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = ExpoAudioAssetTest/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		16098282FBAB2980BA4DA47C /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-ExpoAudioAssetTest/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-ExpoAudioAssetTest-ExpoAudioAssetTestTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ExpoAudioAssetTest-ExpoAudioAssetTestTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B4392A12AC88292D35C810B /* Pods-ExpoAudioAssetTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExpoAudioAssetTest.debug.xcconfig"; path = "Target Support Files/Pods-ExpoAudioAssetTest/Pods-ExpoAudioAssetTest.debug.xcconfig"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-ExpoAudioAssetTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExpoAudioAssetTest.release.xcconfig"; path = "Target Support Files/Pods-ExpoAudioAssetTest/Pods-ExpoAudioAssetTest.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-ExpoAudioAssetTest-ExpoAudioAssetTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExpoAudioAssetTest-ExpoAudioAssetTestTests.debug.xcconfig"; path = "Target Support Files/Pods-ExpoAudioAssetTest-ExpoAudioAssetTestTests/Pods-ExpoAudioAssetTest-ExpoAudioAssetTestTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-ExpoAudioAssetTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ExpoAudioAssetTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BCA6BF095A1CF1DF1E3F2DA /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-ExpoAudioAssetTest-ExpoAudioAssetTestTests/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ExpoAudioAssetTest/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-ExpoAudioAssetTest-ExpoAudioAssetTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExpoAudioAssetTest-ExpoAudioAssetTestTests.release.xcconfig"; path = "Target Support Files/Pods-ExpoAudioAssetTest-ExpoAudioAssetTestTests/Pods-ExpoAudioAssetTest-ExpoAudioAssetTestTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
@@ -109,6 +113,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		2D2878ED6B84A4313E0B2B9C /* ExpoAudioAssetTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				6BCA6BF095A1CF1DF1E3F2DA /* ExpoModulesProvider.swift */,
+			);
+			name = ExpoAudioAssetTestTests;
+			sourceTree = "<group>";
+		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
@@ -125,6 +137,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				8BBC4D79AC50506701BB9C83 /* ExpoModulesProviders */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -140,6 +153,15 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		8BBC4D79AC50506701BB9C83 /* ExpoModulesProviders */ = {
+			isa = PBXGroup;
+			children = (
+				C1D42E6D7AADDD4D5BC956FE /* ExpoAudioAssetTest */,
+				2D2878ED6B84A4313E0B2B9C /* ExpoAudioAssetTestTests */,
+			);
+			name = ExpoModulesProviders;
+			sourceTree = "<group>";
+		};
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -151,6 +173,14 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		C1D42E6D7AADDD4D5BC956FE /* ExpoAudioAssetTest */ = {
+			isa = PBXGroup;
+			children = (
+				16098282FBAB2980BA4DA47C /* ExpoModulesProvider.swift */,
+			);
+			name = ExpoAudioAssetTest;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -159,6 +189,7 @@
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "ExpoAudioAssetTestTests" */;
 			buildPhases = (
 				A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */,
+				664F435C39B234E3A613F51E /* [Expo] Configure project */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
@@ -180,6 +211,7 @@
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "ExpoAudioAssetTest" */;
 			buildPhases = (
 				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
+				D8062C4C751AD96A2E0DB6CD /* [Expo] Configure project */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
@@ -286,6 +318,25 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ExpoAudioAssetTest/Pods-ExpoAudioAssetTest-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		664F435C39B234E3A613F51E /* [Expo] Configure project */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[Expo] Configure project";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# This script configures Expo modules and generates the modules provider file.\nbash -l -c \"./Pods/Target\\ Support\\ Files/Pods-ExpoAudioAssetTest-ExpoAudioAssetTestTests/expo-configure-project.sh\"\n";
+		};
 		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -347,6 +398,25 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ExpoAudioAssetTest-ExpoAudioAssetTestTests/Pods-ExpoAudioAssetTest-ExpoAudioAssetTestTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		D8062C4C751AD96A2E0DB6CD /* [Expo] Configure project */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[Expo] Configure project";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# This script configures Expo modules and generates the modules provider file.\nbash -l -c \"./Pods/Target\\ Support\\ Files/Pods-ExpoAudioAssetTest/expo-configure-project.sh\"\n";
+		};
 		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -389,6 +459,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				00E356F31AD99517003FC87E /* ExpoAudioAssetTestTests.m in Sources */,
+				F8123EC8A1DD9387D9E8F2CE /* ExpoModulesProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,6 +469,7 @@
 			files = (
 				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
+				5F938DE09054AE0C30D65B7C /* ExpoModulesProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,8 +505,10 @@
 					"-lc++",
 					"$(inherited)",
 				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_DEBUG";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ExpoAudioAssetTest.app/ExpoAudioAssetTest";
 			};
 			name = Debug;
@@ -457,8 +531,10 @@
 					"-lc++",
 					"$(inherited)",
 				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_RELEASE";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ExpoAudioAssetTest.app/ExpoAudioAssetTest";
 			};
 			name = Release;
@@ -483,6 +559,7 @@
 					"-ObjC",
 					"-lc++",
 				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_DEBUG";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = ExpoAudioAssetTest;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -510,6 +587,7 @@
 					"-ObjC",
 					"-lc++",
 				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_RELEASE";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = ExpoAudioAssetTest;
 				SWIFT_VERSION = 5.0;
@@ -593,6 +671,7 @@
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_VERSION = 5.0;
 				USE_HERMES = true;
 			};
 			name = Debug;
@@ -664,6 +743,7 @@
 				);
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
 				USE_HERMES = true;
 				VALIDATE_PRODUCT = YES;
 			};

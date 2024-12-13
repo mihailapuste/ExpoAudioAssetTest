@@ -1,6 +1,43 @@
 PODS:
   - boost (1.84.0)
   - DoubleConversion (1.1.6)
+  - EXConstants (17.0.3):
+    - ExpoModulesCore
+  - Expo (52.0.18):
+    - ExpoModulesCore
+  - ExpoAsset (11.0.1):
+    - ExpoModulesCore
+  - ExpoAudio (0.3.0):
+    - ExpoModulesCore
+  - ExpoFileSystem (18.0.5):
+    - ExpoModulesCore
+  - ExpoFont (13.0.1):
+    - ExpoModulesCore
+  - ExpoKeepAwake (14.0.1):
+    - ExpoModulesCore
+  - ExpoModulesCore (2.1.1):
+    - DoubleConversion
+    - glog
+    - hermes-engine
+    - RCT-Folly (= 2024.01.01.00)
+    - RCTRequired
+    - RCTTypeSafety
+    - React-Core
+    - React-debug
+    - React-Fabric
+    - React-featureflags
+    - React-graphics
+    - React-ImageManager
+    - React-jsinspector
+    - React-NativeModulesApple
+    - React-RCTAppDelegate
+    - React-RCTFabric
+    - React-rendererdebug
+    - React-utils
+    - ReactCodegen
+    - ReactCommon/turbomodule/bridging
+    - ReactCommon/turbomodule/core
+    - Yoga
   - FBLazyVector (0.76.5)
   - fmt (9.1.0)
   - glog (0.3.5)
@@ -1515,6 +1552,14 @@ PODS:
 DEPENDENCIES:
   - boost (from `../node_modules/react-native/third-party-podspecs/boost.podspec`)
   - DoubleConversion (from `../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec`)
+  - EXConstants (from `../node_modules/expo-constants/ios`)
+  - Expo (from `../node_modules/expo`)
+  - ExpoAsset (from `../node_modules/expo-asset/ios`)
+  - ExpoAudio (from `../node_modules/expo-audio/ios`)
+  - ExpoFileSystem (from `../node_modules/expo-file-system/ios`)
+  - ExpoFont (from `../node_modules/expo-font/ios`)
+  - ExpoKeepAwake (from `../node_modules/expo-keep-awake/ios`)
+  - ExpoModulesCore (from `../node_modules/expo-modules-core`)
   - FBLazyVector (from `../node_modules/react-native/Libraries/FBLazyVector`)
   - fmt (from `../node_modules/react-native/third-party-podspecs/fmt.podspec`)
   - glog (from `../node_modules/react-native/third-party-podspecs/glog.podspec`)
@@ -1588,6 +1633,22 @@ EXTERNAL SOURCES:
     :podspec: "../node_modules/react-native/third-party-podspecs/boost.podspec"
   DoubleConversion:
     :podspec: "../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec"
+  EXConstants:
+    :path: "../node_modules/expo-constants/ios"
+  Expo:
+    :path: "../node_modules/expo"
+  ExpoAsset:
+    :path: "../node_modules/expo-asset/ios"
+  ExpoAudio:
+    :path: "../node_modules/expo-audio/ios"
+  ExpoFileSystem:
+    :path: "../node_modules/expo-file-system/ios"
+  ExpoFont:
+    :path: "../node_modules/expo-font/ios"
+  ExpoKeepAwake:
+    :path: "../node_modules/expo-keep-awake/ios"
+  ExpoModulesCore:
+    :path: "../node_modules/expo-modules-core"
   FBLazyVector:
     :path: "../node_modules/react-native/Libraries/FBLazyVector"
   fmt:
@@ -1715,6 +1776,14 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   boost: 1dca942403ed9342f98334bf4c3621f011aa7946
   DoubleConversion: f16ae600a246532c4020132d54af21d0ddb2a385
+  EXConstants: 277129d9a42ba2cf1fad375e7eaa9939005c60be
+  Expo: a68bbe94f5cbf55c2d30178942cfd215a59e914f
+  ExpoAsset: 6f7a8887cbb9fb39fdb0808e7f6f74ba0e1ae9b6
+  ExpoAudio: cecce00ced311497bd375787e958a631706d55e4
+  ExpoFileSystem: 6774e1aa2d3c7edfde11855cf5c635a3565a4918
+  ExpoFont: 12b0217e42ac97029d0f317f0486039a8508cf52
+  ExpoKeepAwake: 22173f45d767c7d37403fdf48292726901d69ce7
+  ExpoModulesCore: 5c2036ec792be80ebf777ba5bbe197f20d9b6eed
   FBLazyVector: 1bf99bb46c6af9a2712592e707347315f23947aa
   fmt: 10c6e61f4be25dc963c36bd73fc7b1705fe975be
   glog: 08b301085f15bcbb6ff8632a8ebaf239aae04e6a
@@ -1778,6 +1847,6 @@ SPEC CHECKSUMS:
   SocketRocket: d4aabe649be1e368d1318fdf28a022d714d65748
   Yoga: fcc198acd4a55599b3468cfb6ebc526baff5f06e
 
-PODFILE CHECKSUM: deb14e0a6169ba3f4f05c3c2048c6bb46cb37f59
+PODFILE CHECKSUM: c462dfd382415aa2f16e414b9c93bad7372ecb4c
 
 COCOAPODS: 1.15.2
