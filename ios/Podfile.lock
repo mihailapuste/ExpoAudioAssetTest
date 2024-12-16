@@ -7,7 +7,7 @@ PODS:
     - ExpoModulesCore
   - ExpoAsset (11.0.1):
     - ExpoModulesCore
-  - ExpoAudio (0.3.0):
+  - ExpoAudio (0.3.1):
     - ExpoModulesCore
   - ExpoFileSystem (18.0.5):
     - ExpoModulesCore
@@ -1779,7 +1779,7 @@ SPEC CHECKSUMS:
   EXConstants: 277129d9a42ba2cf1fad375e7eaa9939005c60be
   Expo: a68bbe94f5cbf55c2d30178942cfd215a59e914f
   ExpoAsset: 6f7a8887cbb9fb39fdb0808e7f6f74ba0e1ae9b6
-  ExpoAudio: cecce00ced311497bd375787e958a631706d55e4
+  ExpoAudio: e4a36a78dc38626632c7c482ca39e3eca39ce9af
   ExpoFileSystem: 6774e1aa2d3c7edfde11855cf5c635a3565a4918
   ExpoFont: 12b0217e42ac97029d0f317f0486039a8508cf52
   ExpoKeepAwake: 22173f45d767c7d37403fdf48292726901d69ce7
